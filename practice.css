@@ -14,4 +14,40 @@ justify-content: center;
 align-items: center;
  flex-direction:column ;
  gap: 20px;
+ color: white;
+ color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+
 }
+.high{
+    /* Frame 4*/
+position: static;
+width: 182px;
+height: 45px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 8;
+padding: 11px 22px 11px 22px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 22px 0px;
+border-radius: 4px;
+border-radius: 8px;
+
+background: rgb(82, 195, 3);
+
+}
+
+
